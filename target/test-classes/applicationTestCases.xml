@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DirectMacro UK TestCases" parallel="methods" thread-count="3">
+    <test name="DirectMacro UK Combined TestCases">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.DashboardTest"/>
+            <class name="api.ApiTest"/>
+        </classes>
+    </test>
+</suite>
+

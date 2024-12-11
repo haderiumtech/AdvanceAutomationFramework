@@ -1,0 +1,4 @@
+tests\DashboardTest.class
+tests\LoginTest.class
+utils\RetryAnalyzer.class
+api\ApiTest.class

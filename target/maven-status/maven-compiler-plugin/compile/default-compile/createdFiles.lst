@@ -1,0 +1,8 @@
+base\BaseClass.class
+utils\LoggerUtils.class
+utils\SessionManager.class
+pages\LoginXpaths.class
+config\Configuration.class
+utils\ExtentManager.class
+utils\ApiUtils.class
+utils\DriverManager.class
