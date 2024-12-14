@@ -5,11 +5,19 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
+import config.Configuration;
+
 public class ApiUtils {
 
+//    static {
+//        RestAssured.baseURI = "https://jsonplaceholder.typicode.com"; // Example base URI
+//    }
+    
     static {
-        RestAssured.baseURI = "https://jsonplaceholder.typicode.com"; // Example base URI
+        // Retrieve base URL for API from the config.properties file
+        RestAssured.baseURI = Configuration.get("api.baseUrl");
     }
+
 
     public static Response get(String endpoint) {
         LoggerUtils.logInfo("Sending GET request to: " + endpoint);

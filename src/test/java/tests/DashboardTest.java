@@ -12,7 +12,7 @@ public class DashboardTest extends BaseClass {
 	@Test(priority = 2)
 	public void searchBarTestCase() throws InterruptedException {
 		test = extent.createTest("Test case for searching functionality");
-		gotoUrl(dMUKXp.dMurl);
+		//gotoUrl(dMUKXp.dMurl);
 		sendKeys(dMUKXp.searchBar, dMUKXp.searchData);
 		forClick(dMUKXp.searchBtn);
 		waitUntilDisplayed(dMUKXp.searchResultsPage);

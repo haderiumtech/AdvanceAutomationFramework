@@ -12,7 +12,8 @@
         </classes>
     </test>
     <test name="DirectMacro UK Database TestCases">
-        <classes>
+       <classes>
+            <class name="database.DatabaseTest"/>
         </classes>
     </test>
 </suite>

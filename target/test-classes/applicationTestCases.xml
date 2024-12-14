@@ -4,7 +4,16 @@
         <classes>
             <class name="tests.LoginTest"/>
             <class name="tests.DashboardTest"/>
+        </classes>
+    </test>
+    <test name="DirectMacro UK APIs TestCases">
+        <classes>
             <class name="api.ApiTest"/>
+        </classes>
+    </test>
+    <test name="DirectMacro UK Database TestCases">
+       <classes>
+            <class name="database.DatabaseTest"/>
         </classes>
     </test>
 </suite>

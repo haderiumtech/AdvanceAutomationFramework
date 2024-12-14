@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-DirectMacro_UK_TestCases" class="navigator-link ">
-                    <span>C:\Users\Umair Ahmed\eclipse-workspace\AdvanceFrameworkTestNG\src\test\resources\applicationTestCases.xml</span>
+                    <span>C:\Users\Hp\eclipse-workspace\AdvanceAutomationFramework\src\test\resources\applicationTestCases.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-DirectMacro_UK_TestCases" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,7 +118,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DirectMacro_UK_TestCases" title="database.DatabaseTest" class="method navigator-link" hash-for-method="testDatabaseConnection">testDatabaseConnection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-DirectMacro_UK_TestCases" title="api.ApiTest" class="method navigator-link" hash-for-method="testGetPosts">testGetPosts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DirectMacro_UK_TestCases" title="database.DatabaseTest" class="method navigator-link" hash-for-method="testSelectQuery">testSelectQuery</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-DirectMacro_UK_TestCases -->
@@ -166,6 +176,28 @@
           <div class="suite-DirectMacro_UK_TestCases-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">database.DatabaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDatabaseConnection">
+                  </a> <!-- testDatabaseConnection -->
+                  <span class="method-name">testDatabaseConnection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectQuery">
+                  </a> <!-- testSelectQuery -->
+                  <span class="method-name">testSelectQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DirectMacro_UK_TestCases-class-passed -->
+          <div class="suite-DirectMacro_UK_TestCases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">api.ApiTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -188,7 +220,7 @@
         </div> <!-- panel DirectMacro_UK_TestCases -->
         <div panel-name="test-xml-DirectMacro_UK_TestCases" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Umair Ahmed\eclipse-workspace\AdvanceFrameworkTestNG\src\test\resources\applicationTestCases.xml</span>
+            <span class="header-content">C:\Users\Hp\eclipse-workspace\AdvanceAutomationFramework\src\test\resources\applicationTestCases.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -199,9 +231,18 @@
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;tests.DashboardTest&quot;/&gt;
-      &lt;class name=&quot;api.ApiTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- DirectMacro UK Combined TestCases --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;DirectMacro UK APIs TestCases&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.ApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DirectMacro UK APIs TestCases --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;DirectMacro UK Database TestCases&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;database.DatabaseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DirectMacro UK Database TestCases --&gt;
 &lt;/suite&gt; &lt;!-- DirectMacro UK TestCases --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,7 +254,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">DirectMacro UK Combined TestCases (3 classes)</span>
+                <span class="test-name">DirectMacro UK Combined TestCases (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">DirectMacro UK APIs TestCases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DirectMacro UK Database TestCases (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,28 +286,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCreatePost')
 data.setCell(0, 2, 'api.ApiTest')
-data.setCell(0, 3, 9142);
+data.setCell(0, 3, 3546);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testGetPosts')
-data.setCell(1, 2, 'api.ApiTest')
-data.setCell(1, 3, 6755);
+data.setCell(1, 1, 'searchBarTestCase')
+data.setCell(1, 2, 'tests.DashboardTest')
+data.setCell(1, 3, 3207);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchBarTestCase')
-data.setCell(2, 2, 'tests.DashboardTest')
-data.setCell(2, 3, 4735);
+data.setCell(2, 1, 'testGetPosts')
+data.setCell(2, 2, 'api.ApiTest')
+data.setCell(2, 3, 2881);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'homePageTitleVerification')
 data.setCell(3, 2, 'tests.LoginTest')
-data.setCell(3, 3, 39);
+data.setCell(3, 3, 91);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSelectQuery')
+data.setCell(4, 2, 'database.DatabaseTest')
+data.setCell(4, 3, 40);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDatabaseConnection')
+data.setCell(5, 2, 'database.DatabaseTest')
+data.setCell(5, 3, 1);
 window.suiteTableData['DirectMacro_UK_TestCases']= { tableData: data, tableDiv: 'times-div-DirectMacro_UK_TestCases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-DirectMacro_UK_TestCases">
               </div> <!-- times-div-DirectMacro_UK_TestCases -->
             </div> <!-- times-div -->
@@ -302,92 +357,117 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setupTestEnvironment</span>
-                <span class="method-start">132 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">api.ApiTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetPosts</span>
-                <span class="method-start">194 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testCreatePost</span>
-                <span class="method-start">195 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DashboardTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupTestEnvironment</span>
-                <span class="method-start">6979 ms</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupTestSession</span>
+                <span class="method-start">2725 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupTestSession</span>
-                <span class="method-start">8387 ms</span>
+                <span class="method-start">2725 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setupBeforeEachTest</span>
-                <span class="method-start">8390 ms</span>
-              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DashboardTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setupTestSession</span>
-                <span class="method-start">10016 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setupBeforeEachTest</span>
-                <span class="method-start">10017 ms</span>
+                <span class="method-start">2770 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">homePageTitleVerification</span>
-                <span class="method-start">16408 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logTestResultsAndCaptureScreenshot([TestResult name=homePageTitleVerification status=SUCCESS method=LoginTest.homePageTitleVerification...)</span>
-                <span class="method-start">16450 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownSession</span>
-                <span class="method-start">17931 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <span class="method-name">teardownTestEnvironment</span>
-                <span class="method-start">18110 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeEachTest</span>
+                <span class="method-start">2770 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DashboardTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchBarTestCase</span>
-                <span class="method-start">19549 ms</span>
+                <span class="method-start">6324 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleVerification</span>
+                <span class="method-start">7020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">logTestResultsAndCaptureScreenshot([TestResult name=searchBarTestCase status=SUCCESS method=DashboardTest.searchBarTestCase()[pri:2, in...)</span>
-                <span class="method-start">24284 ms</span>
+                <span class="method-name">logTestResultsAndCaptureScreenshot([TestResult name=homePageTitleVerification status=SUCCESS method=LoginTest.homePageTitleVerification...)</span>
+                <span class="method-start">7113 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownSession</span>
-                <span class="method-start">24387 ms</span>
+                <span class="method-start">7667 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">teardownTestEnvironment</span>
-                <span class="method-start">24388 ms</span>
+                <span class="method-start">7668 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResultsAndCaptureScreenshot([TestResult name=searchBarTestCase status=SUCCESS method=DashboardTest.searchBarTestCase()[pri:2, in...)</span>
+                <span class="method-start">9532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownSession</span>
+                <span class="method-start">9671 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardownTestEnvironment</span>
+                <span class="method-start">9672 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreatePost</span>
+                <span class="method-start">9956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetPosts</span>
+                <span class="method-start">9956 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">database.DatabaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSelectQuery</span>
+                <span class="method-start">13819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDatabaseConnection</span>
+                <span class="method-start">13819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13860 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDownSuite</span>
-                <span class="method-start">24937 ms</span>
+                <span class="method-start">13868 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
