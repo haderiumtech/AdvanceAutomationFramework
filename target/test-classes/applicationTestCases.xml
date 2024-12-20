@@ -3,7 +3,7 @@
     <test name="DirectMacro UK Combined TestCases">
         <classes>
             <class name="tests.LoginTest"/>
-            <class name="tests.DashboardTest"/>
+           <!--  Or the latest version available   <class name="tests.DashboardTest"/>-->
         </classes>
     </test>
     <test name="DirectMacro UK APIs TestCases">

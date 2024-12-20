@@ -1,9 +1,10 @@
 base\BaseClass.class
+pages\LoginXpaths.class
+utils\ApiUtils.class
 utils\LoggerUtils.class
 utils\SessionManager.class
-pages\LoginXpaths.class
 utils\DatabaseUtils.class
 config\Configuration.class
 utils\ExtentManager.class
-utils\ApiUtils.class
 utils\DriverManager.class
+utils\ExcelUtils$1.class

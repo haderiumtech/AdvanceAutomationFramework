@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [DirectMacro UK TestCases]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="methods" name="DirectMacro UK Combined TestCases(failed)" verbose="0">
+    <classes>
+      <class name="tests.DashboardTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="searchBarTestCase"/>
+          <include name="logTestResultsAndCaptureScreenshot"/>
+          <include name="setupTestEnvironment"/>
+          <include name="teardownTestEnvironment"/>
+          <include name="tearDownSession"/>
+          <include name="setupTestSession"/>
+          <include name="setupBeforeEachTest"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- tests.DashboardTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="logTestResultsAndCaptureScreenshot"/>
+          <include name="addUser"/>
+          <include name="setupTestEnvironment"/>
+          <include name="teardownTestEnvironment"/>
+          <include name="setupTestSession"/>
+          <include name="tearDownSession"/>
+          <include name="setupBeforeEachTest"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- DirectMacro UK Combined TestCases(failed) -->
+</suite> <!-- Failed suite [DirectMacro UK TestCases] -->

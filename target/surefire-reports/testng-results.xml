@@ -1,123 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-15T02:13:24 PKT" name="DirectMacro UK TestCases" finished-at="2024-12-15T02:13:38 PKT" duration-ms="13850">
+  <suite started-at="2024-12-21T00:46:11 PKT" name="DirectMacro UK TestCases" finished-at="2024-12-21T00:46:22 PKT" duration-ms="11372">
     <groups>
     </groups>
-    <test started-at="2024-12-15T02:13:24 PKT" name="DirectMacro UK Combined TestCases" finished-at="2024-12-15T02:13:34 PKT" duration-ms="9921">
+    <test started-at="2024-12-21T00:46:11 PKT" name="DirectMacro UK Combined TestCases" finished-at="2024-12-21T00:46:19 PKT" duration-ms="7876">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setupTestEnvironment()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:24 PKT" name="setupTestEnvironment" finished-at="2024-12-15T02:13:27 PKT" duration-ms="2693" status="PASS">
+        <test-method is-config="true" signature="setupTestEnvironment()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:11 PKT" name="setupTestEnvironment" finished-at="2024-12-21T00:46:16 PKT" duration-ms="5280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestEnvironment -->
-        <test-method is-config="true" signature="setupTestSession()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:27 PKT" name="setupTestSession" finished-at="2024-12-15T02:13:27 PKT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setupTestSession()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:16 PKT" name="setupTestSession" finished-at="2024-12-21T00:46:16 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestSession -->
-        <test-method is-config="true" signature="setupBeforeEachTest()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:27 PKT" name="setupBeforeEachTest" finished-at="2024-12-15T02:13:31 PKT" duration-ms="4250" status="PASS">
+        <test-method is-config="true" signature="setupBeforeEachTest()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:16 PKT" name="setupBeforeEachTest" finished-at="2024-12-21T00:46:18 PKT" duration-ms="1413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBeforeEachTest -->
-        <test-method signature="homePageTitleVerification()[pri:1, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:31 PKT" name="homePageTitleVerification" finished-at="2024-12-15T02:13:31 PKT" duration-ms="91" status="PASS">
+        <test-method signature="loginTestCase()[pri:1, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:18 PKT" name="loginTestCase" finished-at="2024-12-21T00:46:18 PKT" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageTitleVerification -->
-        <test-method is-config="true" signature="logTestResultsAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:32 PKT" name="logTestResultsAndCaptureScreenshot" finished-at="2024-12-15T02:13:32 PKT" duration-ms="552" status="PASS">
+        </test-method> <!-- loginTestCase -->
+        <test-method is-config="true" signature="logTestResultsAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:18 PKT" name="logTestResultsAndCaptureScreenshot" finished-at="2024-12-21T00:46:18 PKT" duration-ms="401" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homePageTitleVerification status=SUCCESS method=LoginTest.homePageTitleVerification()[pri:1, instance:tests.LoginTest@51399530] output={null}]]]>
+                <![CDATA[[TestResult name=loginTestCase status=SUCCESS method=LoginTest.loginTestCase()[pri:1, instance:tests.LoginTest@1d296da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResultsAndCaptureScreenshot -->
-        <test-method is-config="true" signature="tearDownSession()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:32 PKT" name="tearDownSession" finished-at="2024-12-15T02:13:32 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownSession()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:18 PKT" name="tearDownSession" finished-at="2024-12-21T00:46:18 PKT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSession -->
-        <test-method is-config="true" signature="teardownTestEnvironment()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:32 PKT" name="teardownTestEnvironment" finished-at="2024-12-15T02:13:32 PKT" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="teardownTestEnvironment()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:18 PKT" name="teardownTestEnvironment" finished-at="2024-12-21T00:46:19 PKT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTestEnvironment -->
       </class> <!-- tests.LoginTest -->
-      <class name="tests.DashboardTest">
-        <test-method is-config="true" signature="setupTestEnvironment()[pri:0, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:24 PKT" name="setupTestEnvironment" finished-at="2024-12-15T02:13:27 PKT" duration-ms="2693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTestEnvironment -->
-        <test-method is-config="true" signature="setupTestSession()[pri:0, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:27 PKT" name="setupTestSession" finished-at="2024-12-15T02:13:27 PKT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTestSession -->
-        <test-method is-config="true" signature="setupBeforeEachTest()[pri:0, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:27 PKT" name="setupBeforeEachTest" finished-at="2024-12-15T02:13:31 PKT" duration-ms="3554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupBeforeEachTest -->
-        <test-method signature="searchBarTestCase()[pri:2, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:31 PKT" name="searchBarTestCase" finished-at="2024-12-15T02:13:34 PKT" duration-ms="3207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchBarTestCase -->
-        <test-method is-config="true" signature="logTestResultsAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:34 PKT" name="logTestResultsAndCaptureScreenshot" finished-at="2024-12-15T02:13:34 PKT" duration-ms="138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchBarTestCase status=SUCCESS method=DashboardTest.searchBarTestCase()[pri:2, instance:tests.DashboardTest@4afcd809] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestResultsAndCaptureScreenshot -->
-        <test-method is-config="true" signature="tearDownSession()[pri:0, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:34 PKT" name="tearDownSession" finished-at="2024-12-15T02:13:34 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownSession -->
-        <test-method is-config="true" signature="teardownTestEnvironment()[pri:0, instance:tests.DashboardTest@4afcd809]" started-at="2024-12-15T02:13:34 PKT" name="teardownTestEnvironment" finished-at="2024-12-15T02:13:34 PKT" duration-ms="261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownTestEnvironment -->
-      </class> <!-- tests.DashboardTest -->
     </test> <!-- DirectMacro UK Combined TestCases -->
-    <test started-at="2024-12-15T02:13:34 PKT" name="DirectMacro UK APIs TestCases" finished-at="2024-12-15T02:13:38 PKT" duration-ms="3548">
+    <test started-at="2024-12-21T00:46:19 PKT" name="DirectMacro UK APIs TestCases" finished-at="2024-12-21T00:46:22 PKT" duration-ms="2940">
       <class name="api.ApiTest">
-        <test-method signature="testCreatePost()[pri:0, instance:api.ApiTest@229f66ed]" started-at="2024-12-15T02:13:34 PKT" name="testCreatePost" finished-at="2024-12-15T02:13:38 PKT" duration-ms="3546" status="PASS">
+        <test-method signature="testCreatePost()[pri:0, instance:api.ApiTest@6f03482]" started-at="2024-12-21T00:46:19 PKT" name="testCreatePost" finished-at="2024-12-21T00:46:22 PKT" duration-ms="2939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePost -->
-        <test-method signature="testGetPosts()[pri:0, instance:api.ApiTest@229f66ed]" started-at="2024-12-15T02:13:34 PKT" name="testGetPosts" finished-at="2024-12-15T02:13:37 PKT" duration-ms="2881" status="PASS">
+        <test-method signature="testGetPosts()[pri:0, instance:api.ApiTest@6f03482]" started-at="2024-12-21T00:46:19 PKT" name="testGetPosts" finished-at="2024-12-21T00:46:21 PKT" duration-ms="2363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPosts -->
       </class> <!-- api.ApiTest -->
     </test> <!-- DirectMacro UK APIs TestCases -->
-    <test started-at="2024-12-15T02:13:38 PKT" name="DirectMacro UK Database TestCases" finished-at="2024-12-15T02:13:38 PKT" duration-ms="356">
+    <test started-at="2024-12-21T00:46:22 PKT" name="DirectMacro UK Database TestCases" finished-at="2024-12-21T00:46:22 PKT" duration-ms="525">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:24 PKT" name="setupSuite" finished-at="2024-12-15T02:13:24 PKT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:11 PKT" name="setupSuite" finished-at="2024-12-21T00:46:11 PKT" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.LoginTest@51399530]" started-at="2024-12-15T02:13:38 PKT" name="tearDownSuite" finished-at="2024-12-15T02:13:38 PKT" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2024-12-21T00:46:22 PKT" name="tearDownSuite" finished-at="2024-12-21T00:46:22 PKT" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
       </class> <!-- tests.LoginTest -->
       <class name="database.DatabaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:database.DatabaseTest@3eb738bb]" started-at="2024-12-15T02:13:38 PKT" name="setUp" finished-at="2024-12-15T02:13:38 PKT" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:database.DatabaseTest@74e52ef6]" started-at="2024-12-21T00:46:22 PKT" name="setUp" finished-at="2024-12-21T00:46:22 PKT" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSelectQuery()[pri:3, instance:database.DatabaseTest@3eb738bb]" started-at="2024-12-15T02:13:38 PKT" name="testSelectQuery" finished-at="2024-12-15T02:13:38 PKT" duration-ms="40" status="PASS">
+        <test-method signature="testSelectQuery()[pri:3, instance:database.DatabaseTest@74e52ef6]" started-at="2024-12-21T00:46:22 PKT" name="testSelectQuery" finished-at="2024-12-21T00:46:22 PKT" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectQuery -->
-        <test-method signature="testDatabaseConnection()[pri:0, instance:database.DatabaseTest@3eb738bb]" started-at="2024-12-15T02:13:38 PKT" name="testDatabaseConnection" finished-at="2024-12-15T02:13:38 PKT" duration-ms="1" status="PASS">
+        <test-method signature="testDatabaseConnection()[pri:0, instance:database.DatabaseTest@74e52ef6]" started-at="2024-12-21T00:46:22 PKT" name="testDatabaseConnection" finished-at="2024-12-21T00:46:22 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDatabaseConnection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:database.DatabaseTest@3eb738bb]" started-at="2024-12-15T02:13:38 PKT" name="tearDown" finished-at="2024-12-15T02:13:38 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:database.DatabaseTest@74e52ef6]" started-at="2024-12-21T00:46:22 PKT" name="tearDown" finished-at="2024-12-21T00:46:22 PKT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
